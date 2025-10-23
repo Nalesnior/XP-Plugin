@@ -30,3 +30,6 @@ public decimal on_warhead_detonation_xp { get; set; } = 10m;
 public string on_warhead_detonation_message { get; set; } = "You detonated the warhead and got {xp} XP!\n {CurrnetXP}/{RequestXPToNextLevel}";
 ```
 
+## Overview
+- U don't have to create tables and columns. Just input database connection detals into designated places in configuration and restart server.
+- If u have to create more Role Multiplers, just add { "example_role_in_sl", x.xm } this line into Dictionary "PremiumRoleMultipliers". If you have e.g. only 2 roles with multipler, delete other lines with 'example_role'.
